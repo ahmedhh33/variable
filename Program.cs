@@ -41,6 +41,32 @@ namespace variable
             Console.WriteLine(a % b);
             Console.Write(" b % a = ");
             Console.WriteLine(b % a);
+
+            // swaping two intiger
+            Console.WriteLine("Swapping two intiger ");
+            int Z = 15;
+            int M = 30;
+            Console.WriteLine("Befor swapping Z = " + Z + " M =" + M);
+            Z = Z + M;
+            M = Z - M;
+            Z = Z - M;
+            Console.WriteLine("After swapping Z = " + Z + " M =" + M);
+
+            // swaping two string
+            Console.WriteLine("Swapping two strings ");
+            string stri1 = "Ahmed";
+            string stri2 = "Humaid";
+
+            Console.WriteLine("Befor swapping");
+            Console.WriteLine(stri1);
+            Console.WriteLine(stri2);
+            stri1 = stri1 + stri2;
+
+            stri2 = stri1.Substring(0, stri1.Length - stri2.Length);
+            stri1 = stri1.Substring( stri2.Length);
+            Console.WriteLine("after swapping");
+            Console.WriteLine(stri1);
+            Console.WriteLine(stri2);
         }
     }
 }
