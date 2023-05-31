@@ -27,12 +27,19 @@ namespace variable
             int a = Convert.ToInt16(Console.ReadLine());
             Console.WriteLine("Enter the vale of a = ");
             int b = Convert.ToInt16(Console.ReadLine());
+            Console.Write(" a + b = ");
             Console.WriteLine(a + b);
+            Console.Write(" a - b = ");
             Console.WriteLine(a - b);
-            Console.WriteLine(b + a);
+            Console.Write(" b - a = ");
+            Console.WriteLine(b - a);
+            Console.Write(" a / b = ");
             Console.WriteLine(a /b);
+            Console.Write(" a * b = ");
             Console.WriteLine(b * a);
+            Console.Write(" a % b = ");
             Console.WriteLine(a % b);
+            Console.Write(" b % a = ");
             Console.WriteLine(b % a);
         }
     }
